@@ -1,0 +1,33 @@
+.alert{
+    position: relative;
+    display: inline-block;
+    font-weight: $btn-font-weight;
+    line-height: $btn-line-height;
+    color: $body-color;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 2.5rem;
+    line-height: 2.5rem;
+    width: 35rem;
+    text-align: left;
+}
+
+.alert-success{
+    @include alertBackground($alert-succes-color, $alert-succes-border)
+}
+.alert-info{
+    @include alertBackground($alert-info-color,$alert-info-border)
+}
+.alert-warning{
+    @include alertBackground($alert-warning-color,$alert-warning-border)
+}
+.alert-error{
+    @include alertBackground($alert-error-color,$alert-error-border)
+}
+.alert-close-icon{
+    position: absolute;
+    top:0;
+    right: 2rem;
+    cursor: pointer;
+}

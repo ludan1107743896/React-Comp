@@ -1,0 +1,68 @@
+.hard-divider{
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.hard-divider-dashed{
+    background: 0 0;
+    border-color: #f0f0f0;
+    border-style: dashed;
+    border-width: 1px 0 0;
+}
+.hard-divider-horizontal{
+    display: flex;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    margin: 24px 0;
+}
+.hard-divider-text{
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    top: -13px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+}
+.hard-divider-left {
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    top: -13px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+}
+.hard-divider-right {
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    top: -13px;
+    right: 10px;
+    bottom: 0;
+}
+.hard-divider-center {
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    top: -13px;
+    left: 47%;
+    bottom: 0;
+}
+

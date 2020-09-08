@@ -1,0 +1,23 @@
+.bankList{
+    position: absolute;
+    font-weight: $btn-font-weight;
+    line-height: $btn-line-height;
+    color: $body-color;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid $primary;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+    margin-left: -17rem;
+    margin-top: -17rem;
+    @include setBanckBoxiframeSize($minHeight, $minWidth);
+    overflow: auto;
+    & li{
+        list-style: none;
+    }
+}
+
+
